@@ -1,0 +1,22 @@
+{
+  "name": "storybook-preset-cl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Hoffmann <r.hoffmann@crolla-lowis.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-docs": "^5.2.3",
+    "@storybook/addon-info": "^5.2.3",
+    "@storybook/addon-knobs": "^5.2.3",
+    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addon-notes": "^5.2.3",
+    "@storybook/addon-options": "^5.2.3"
+  },
+  "peerDependencies": {
+    "@storybook/react": ">=5.2"
+  }
+}
