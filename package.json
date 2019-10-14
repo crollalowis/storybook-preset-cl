@@ -15,6 +15,7 @@
   "author": "Richard Hoffmann <r.hoffmann@crolla-lowis.de>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
     "@babel/preset-flow": "^7.0.0",
     "babel-plugin-react-docgen": "^3.1.0",
     "storybook-addon-react-docgen": "^1.2.28"
