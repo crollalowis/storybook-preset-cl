@@ -1,0 +1,9 @@
+{
+  "retainLines": true,
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-flow",
+    ["@babel/preset-env", { "useBuiltIns": "entry", "corejs": 3 }]
+  ],
+  "plugins": ["react-docgen", "@babel/plugin-proposal-class-properties"]
+}
