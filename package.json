@@ -6,21 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
   "author": "Richard Hoffmann <r.hoffmann@crolla-lowis.de>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-flow": "^7.0.0",
-    "@babel/preset-react": "^7.6.3",
-    "babel-plugin-react-docgen": "^3.1.0",
-    "storybook-addon-react-docgen": "^1.2.28"
+    "@babel/core": "^7.6.2"
   },
   "peerDependencies": {
     "@storybook/addon-actions": "^5.2.*",
