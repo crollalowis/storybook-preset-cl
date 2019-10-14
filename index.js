@@ -13,8 +13,8 @@ function babelDefault(config) {
   return {
     ...config,
     presets: [
-      ...config.presets,
-      require.resolve("@storybook/addon-docs/react/preset")
+      ...config.presets
+      // require.resolve("@storybook/addon-docs/react/preset")
     ]
   };
 }
