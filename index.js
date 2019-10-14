@@ -9,7 +9,7 @@ function addons(entry = []) {
   ];
 }
 
-function babel(config) {
+function babelDefault(config) {
   return {
     ...config,
     presets: [
