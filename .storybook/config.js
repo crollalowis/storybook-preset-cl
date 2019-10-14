@@ -9,8 +9,6 @@ import defaultNotes from "./instructions.md";
 import { ThemeProvider } from "@material-ui/styles";
 import NoSsr from "@material-ui/core/NoSsr";
 
-const theme = {};
-
 withOptions({
   goFullScreen: false,
   showLeftPanel: true,
@@ -22,12 +20,6 @@ withOptions({
 
 addParameters({ notes: defaultNotes });
 addDecorator(withKnobs);
-
-addDecorator(storyFn => (
-  <NoSsr>
-    <ThemeProvider theme={theme}>{storyFn({ theme })}</ThemeProvider>
-  </NoSsr>
-));
 
 configure(
   [
