@@ -12,10 +12,7 @@ function addons(entry = []) {
 function babelDefault(config) {
   return {
     ...config,
-    presets: [
-      ...config.presets,
-      require.resolve("@storybook/addon-docs/react/preset")
-    ]
+    presets: [...config.presets, "@storybook/addon-docs/react/preset"]
   };
 }
 
