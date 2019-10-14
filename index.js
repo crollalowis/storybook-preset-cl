@@ -21,5 +21,5 @@ function babelDefault(config) {
 
 module.exports = {
   addons,
-  babel
+  babelDefault
 };
