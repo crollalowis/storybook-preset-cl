@@ -1,4 +1,4 @@
-export function addons(entry = []) {
+function addons(entry = []) {
   return [
     ...entry,
     require.resolve("@storybook/addon-actions/register"),
@@ -9,7 +9,7 @@ export function addons(entry = []) {
   ];
 }
 
-export function babelDefault(config) {
+function babelDefault(config) {
   return {
     ...config,
     presets: [
@@ -18,3 +18,8 @@ export function babelDefault(config) {
     ]
   };
 }
+
+module.exports = {
+  addons,
+  babelDefault
+};
